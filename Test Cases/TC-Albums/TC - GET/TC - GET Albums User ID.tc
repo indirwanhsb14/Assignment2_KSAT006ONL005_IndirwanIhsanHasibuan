@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - GET Albums User ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16051b04-8779-401c-9aee-6ae56cb914ee</testCaseGuid>
+</TestCaseEntity>
