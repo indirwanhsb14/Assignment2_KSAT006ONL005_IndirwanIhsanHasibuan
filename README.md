@@ -1,5 +1,6 @@
-Nama : Indirwan Ihsan Hasibuan<br>
-Kode Peserta : KSAT006ONL005
+<h4>Nama : Indirwan Ihsan Hasibuan<br>
+Kode Peserta : KSAT006ONL005<br>
+Link Github : https://github.com/indirwanhsb14 </h4>
 
 ### Assignment 2
 
