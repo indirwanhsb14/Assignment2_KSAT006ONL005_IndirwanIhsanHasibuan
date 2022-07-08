@@ -1,11 +1,9 @@
-# Assignment2_KSAT006ONL005_IndirwanIhsanHasibuan
-
 Nama : Indirwan Ihsan Hasibuan<br>
 Kode Peserta : KSAT006ONL005
 
-### Assignment2 API 
+### Assignment 2
 
-Menggunakan JsonPlaceholder : http://jsonplaceholder.typicode.com/
+Assignment 2 Katalon untuk API test automation http://jsonplaceholder.typicode.com/
 
 ### Endpoints
 1. albums
