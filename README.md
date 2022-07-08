@@ -1,11 +1,11 @@
 # Assignment2_KSAT006ONL005_IndirwanIhsanHasibuan
 
-## Nama : Indirwan Ihsan Hasibuan
-## Kode Peserta : KSAT006ONL005
+Nama : Indirwan Ihsan Hasibuan<br>
+Kode Peserta : KSAT006ONL005
 
 ### Assignment2 API 
 
-Menggunakan JsonPlaceholder > http://jsonplaceholder.typicode.com/
+Menggunakan JsonPlaceholder : http://jsonplaceholder.typicode.com/
 
 ### Endpoints
 1. albums
