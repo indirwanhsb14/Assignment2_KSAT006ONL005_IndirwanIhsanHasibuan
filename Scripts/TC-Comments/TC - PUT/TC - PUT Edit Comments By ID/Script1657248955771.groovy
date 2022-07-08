@@ -17,5 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequest(findTestObject('null'))
+response3 = WS.sendRequest(findTestObject('Comments/PUT/PUT Comments'))
+
+WS.verifyResponseStatusCode(response3, 200, FailureHandling.STOP_ON_FAILURE)
+
+assert response3.getStatusCode() == 200
+
+WS.verifyElementPropertyValue(response3, 'id', '1', FailureHandling.STOP_ON_FAILURE)
 

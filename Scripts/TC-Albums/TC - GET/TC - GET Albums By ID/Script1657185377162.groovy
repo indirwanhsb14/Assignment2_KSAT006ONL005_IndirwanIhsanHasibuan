@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-respon1 = WS.sendRequest(findTestObject('Albums/GET/GET Albums by ID'))
+response2 = WS.sendRequest(findTestObject('Albums/GET/GET Albums by ID'))
 
-WS.verifyResponseStatusCode(respon1, 200, FailureHandling.STOP_ON_FAILURE)
+WS.verifyResponseStatusCode(response2, 200, FailureHandling.STOP_ON_FAILURE)
 
-assert respon1.getStatusCode() == 200
+assert response2.getStatusCode() == 200
 
-WS.verifyElementPropertyValue(respon1, 'userId', '1')
+WS.verifyElementPropertyValue(response2, 'userId', '1')
 
-WS.verifyElementPropertyValue(respon1, 'id', '1')
+WS.verifyElementPropertyValue(response2, 'id', '1')
 
-WS.verifyElementPropertyValue(respon1, 'title', 'quidem molestiae enim')
+WS.verifyElementPropertyValue(response2, 'title', 'quidem molestiae enim')
 

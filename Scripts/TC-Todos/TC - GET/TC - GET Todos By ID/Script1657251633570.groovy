@@ -17,5 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WS.sendRequest(findTestObject('null'))
+response2 = WS.sendRequest(findTestObject('Todos/GET/GET Todos By ID'))
 
+assert response2.getStatusCode() == 200
+
+WS.verifyElementPropertyValue(response2, 'userId', '1')
+
+WS.verifyElementPropertyValue(response2, 'id', '1')
+
+WS.verifyElementPropertyValue(response2, 'title', 'delectus aut autem')
+
+WS.verifyElementPropertyValue(response2, 'completed', 'false')
